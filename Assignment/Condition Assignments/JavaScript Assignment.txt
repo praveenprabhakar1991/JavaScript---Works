@@ -1,0 +1,207 @@
+<<<<<<< HEAD
+1.   What is JavaScript?
+Ans. JavaScript is a Scripting Programming Language.
+
+2.   Who developed JavaScript, and what is the first name of JavaScript?
+Ans. JavaScript was invented and developed by Brendan Eich in 1995.
+     First name of JavaScript is MOCHA.
+
+3.   Are ECMAScript and javascript related? How?
+Ans. JavaScript is a general-purpose scripting language that conforms to the ECMAScript specification. 
+     The ECMAScript specification is a blueprint for creating a scripting language. 
+     JavaScript is an implementation of that blueprint. 
+     JavaScript implements the ECMAScript specification as described in ECMA-262.
+ 
+4.   Is JavaScript case-sensitive?
+Ans. Yes.
+
+5.   What are the different data types present in javascript?
+Ans. Primitive Data  Type and Non-Primitive Data Type.
+	1. String 		1. Object
+	2. Number		i> Array
+	3. Boolean		ii>Object
+	4. Undefined
+	5. Null
+	6. BigInt
+	7. Symbol
+
+6.   What do you mean by NULL in JavaScript?
+Ans. In JavaScript, Null is a special value that represents an empty or unknown value.
+
+7.   What do you mean by undefined value in JavaScript?
+Ans. In JavaScript, Undefined value is a variable that has not been assigned a value.
+
+8.   Difference between “ == “ and “ === “ operators.
+Ans. 1> "==" is an Equality Operator. 			1> "===" is a Strict Equality Operator.  
+     2> "==" used for comparing two variables. 		2> "===" used for comparing two variables.
+     3> It ignores the data type of variable.		3> It checks data type of variables and compares two values.
+     4> Checks the equality of two operands 		4> Compares equality of two operands with their types.   
+        without considering their type.			 				   
+     
+9.   What do you mean by the “===” operator?
+Ans. "===" is a Strict Equality Operator. It checks data type of variables and compares two values. 
+     Compares equality of two operands with their types.
+
+10.  Difference between var and let keyword in javascript?
+Ans. The 'var' keyword has a global scope. The 'let' keyword stays limited to the block scope.
+
+11.  Explain Implicit Type coercion in javascript?
+Ans. Type Coercion refers to the process of automatic or implicit conversion of values from one data type to another. 
+     This includes conversion from Number to String, String to Number, Boolean to Number etc. 
+     when different types of operators are applied to the values.
+
+12.  What is NaN property in JavaScript?
+Ans. The global NaN property is a value representing Not-A-Number.
+
+13.  What Should be the answer of 10+2+“77”?
+Ans. '1277'.
+
+14.  What is the use of the delete operator?
+Ans. The delete operator removes a given property from an object. 
+
+15.  What do you mean by Escape characters?
+Ans. Escape Characters are the symbol used to begin an escape command in order to execute some operation. 
+     They are characters that can be interpreted in some alternate way than what we intended to.
+
+16.  Name all the types of Pop up boxes available in JavaScript?
+Ans. Alert box, Confirm box, and Prompt box.
+
+17.  What do you mean by Cookies JavaScript?
+Ans. A cookie is an amount of information that persists between a server-side and a client-side. 
+     A web browser stores this information at the time of browsing.
+     A cookie contains the information as a string generally in the form of a name-value pair separated by semi-colons.
+
+18.  How should we create a cookie in JavaScript?
+Ans. JavaScript can create, read, and delete cookies with the document.cookie property.
+     Ex: document.cookie = "username=John Doe";
+
+19.  How can you read a cookie in JavaScript?
+Ans. let x = document.cookie;
+     document.cookie will return all cookies in one string much like: cookie1=value; cookie2=value; cookie3=value;
+
+20.  What is DOM?
+Ans. "The Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to 
+      dynamically access and update the content, structure, and style of a document."
+
+21.  What is the difference between Do-While and While Loop?
+Ans. A while loop checks the condition, then executes the loop. A Do-While executes the loop and then checks the conditions.
+
+22.  How does the Do-While loop work?
+Ans. The do-while statement creates a loop that executes a specified statement until the test condition evaluates to false.
+
+23.  How does the For-Loop work?
+Ans. A for loop repeats until a specified condition evaluates to false.
+
+24.  Is it possible to skip or omit parts of the for-loop settings?
+Ans. The continue statement (with or without a label reference) can only be used to skip one loop iteration.
+
+25.  Can you stop a loop based on a specific condition?
+Ans. The break statement is used to terminate the loop immediately when it is encountered.
+
+26.  What is the difference between the break statement and the continue directive?
+Ans. The break statement "jumps out" of a loop. The continue statement "jumps over" one iteration in the loop.
+     Break statement stops the entire process of the loop. Continue statement only stops the current iteration of the loop.
+=======
+1.   What is JavaScript?
+Ans. JavaScript is a Scripting Programming Language.
+
+2.   Who developed JavaScript, and what is the first name of JavaScript?
+Ans. JavaScript was invented and developed by Brendan Eich in 1995.
+     First name of JavaScript is MOCHA.
+
+3.   Are ECMAScript and javascript related? How?
+Ans. JavaScript is a general-purpose scripting language that conforms to the ECMAScript specification. 
+     The ECMAScript specification is a blueprint for creating a scripting language. 
+     JavaScript is an implementation of that blueprint. 
+     JavaScript implements the ECMAScript specification as described in ECMA-262.
+ 
+4.   Is JavaScript case-sensitive?
+Ans. Yes.
+
+5.   What are the different data types present in javascript?
+Ans. Primitive Data  Type and Non-Primitive Data Type.
+	1. String 		1. Object
+	2. Number		i> Array
+	3. Boolean		ii>Object
+	4. Undefined
+	5. Null
+	6. BigInt
+	7. Symbol
+
+6.   What do you mean by NULL in JavaScript?
+Ans. In JavaScript, Null is a special value that represents an empty or unknown value.
+
+7.   What do you mean by undefined value in JavaScript?
+Ans. In JavaScript, Undefined value is a variable that has not been assigned a value.
+
+8.   Difference between “ == “ and “ === “ operators.
+Ans. 1> "==" is an Equality Operator. 			1> "===" is a Strict Equality Operator.  
+     2> "==" used for comparing two variables. 		2> "===" used for comparing two variables.
+     3> It ignores the data type of variable.		3> It checks data type of variables and compares two values.
+     4> Checks the equality of two operands 		4> Compares equality of two operands with their types.   
+        without considering their type.			 				   
+     
+9.   What do you mean by the “===” operator?
+Ans. "===" is a Strict Equality Operator. It checks data type of variables and compares two values. 
+     Compares equality of two operands with their types.
+
+10.  Difference between var and let keyword in javascript?
+Ans. The 'var' keyword has a global scope. The 'let' keyword stays limited to the block scope.
+
+11.  Explain Implicit Type coercion in javascript?
+Ans. Type Coercion refers to the process of automatic or implicit conversion of values from one data type to another. 
+     This includes conversion from Number to String, String to Number, Boolean to Number etc. 
+     when different types of operators are applied to the values.
+
+12.  What is NaN property in JavaScript?
+Ans. The global NaN property is a value representing Not-A-Number.
+
+13.  What Should be the answer of 10+2+“77”?
+Ans. '1277'.
+
+14.  What is the use of the delete operator?
+Ans. The delete operator removes a given property from an object. 
+
+15.  What do you mean by Escape characters?
+Ans. Escape Characters are the symbol used to begin an escape command in order to execute some operation. 
+     They are characters that can be interpreted in some alternate way than what we intended to.
+
+16.  Name all the types of Pop up boxes available in JavaScript?
+Ans. Alert box, Confirm box, and Prompt box.
+
+17.  What do you mean by Cookies JavaScript?
+Ans. A cookie is an amount of information that persists between a server-side and a client-side. 
+     A web browser stores this information at the time of browsing.
+     A cookie contains the information as a string generally in the form of a name-value pair separated by semi-colons.
+
+18.  How should we create a cookie in JavaScript?
+Ans. JavaScript can create, read, and delete cookies with the document.cookie property.
+     Ex: document.cookie = "username=John Doe";
+
+19.  How can you read a cookie in JavaScript?
+Ans. let x = document.cookie;
+     document.cookie will return all cookies in one string much like: cookie1=value; cookie2=value; cookie3=value;
+
+20.  What is DOM?
+Ans. "The Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to 
+      dynamically access and update the content, structure, and style of a document."
+
+21.  What is the difference between Do-While and While Loop?
+Ans. A while loop checks the condition, then executes the loop. A Do-While executes the loop and then checks the conditions.
+
+22.  How does the Do-While loop work?
+Ans. The do-while statement creates a loop that executes a specified statement until the test condition evaluates to false.
+
+23.  How does the For-Loop work?
+Ans. A for loop repeats until a specified condition evaluates to false.
+
+24.  Is it possible to skip or omit parts of the for-loop settings?
+Ans. The continue statement (with or without a label reference) can only be used to skip one loop iteration.
+
+25.  Can you stop a loop based on a specific condition?
+Ans. The break statement is used to terminate the loop immediately when it is encountered.
+
+26.  What is the difference between the break statement and the continue directive?
+Ans. The break statement "jumps out" of a loop. The continue statement "jumps over" one iteration in the loop.
+     Break statement stops the entire process of the loop. Continue statement only stops the current iteration of the loop.
+>>>>>>> 671e8d4a93ecf3927676ee198792f6a42cdc620a
