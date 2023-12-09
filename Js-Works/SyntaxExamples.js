@@ -1,11 +1,15 @@
-//                                                            Syntax
+//                                                             Syntax
+
+// Variable
+
+var x = 0 ;                                   
 
 
 // Condition Flow
 
 // *****************************                             if block                                   *****************************
 
-if (a > b) {                                       //    If
+if (a > b) {                                       //    if
         console.log("True")                        //    True
 }
 
