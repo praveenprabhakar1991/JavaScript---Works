@@ -17,11 +17,13 @@ console.log(emp.location)
 console.log(emp)                                                                                            // READ
 
 console.log("***Update Operation***")
+
 emp.name = "Praveen";
 emp.email = "praveenprabhakar108";                                                                          // UPDATE
 emp.salary = 60000
 console.log(emp)
 
 console.log("***Delete Operation***")
+
 delete emp.location                                                                                         // DELETE
 console.log(emp)
